@@ -99,7 +99,7 @@ def main(X,K):
     #steps : the maximum number of steps to perform the optimisation, hardcoding the values
     #alpha : the learning rate, hardcoding the values
     #beta  : the regularization parameter, hardcoding the values
-    steps = 5000
+    steps = 5
     alpha = 0.0002
     beta = float(0.02)
     estimated_P, estimated_Q = matrix_factorization(X,P,Q,K,steps,alpha,beta)
